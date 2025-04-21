@@ -53,27 +53,26 @@
 }
 
 .nav-search{
-    background-color: lightpink;
-    display: flex;
+display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    width:50%;
+    width: 50%;
     height: 40px;
     border-radius: 4px;
-    margin: 0 10px;
-    background-color: #f3f3f3;
-    
+}
+
+.nav-search:hover{
+    border: 3px solid orange;
 }
 
 .search-select{
     background-color: #f3f3f3;
-    width: 60px;
-    height: 100%;
-    text-align:center;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
-    border: none;
-    border-right: 1px solid #cdcdcd;
+        width: 50px;
+        height: 100%;
+        text-align: center;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border: none;
+        border-right: 1px solid #cdcdcd;
 
 }
 .search-input{
@@ -103,7 +102,47 @@ span{
 
 }
 
+
+
 .nav-second{
     font-size: 0.85rem;
+    font-weight: 1000px;
+}
+
+.nav-cart i {
+    font-size: 30px ;
+    margin-right: 5px;
+
+
+
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    align-items: center;
+    font-weight: bold;
+    display: flex;
+}
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display:flex ;
+    color:white ;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panels-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panels-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
     font-weight: 700px;
 }
